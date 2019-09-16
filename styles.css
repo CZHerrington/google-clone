@@ -84,13 +84,19 @@ main {
     justify-content: center;
     flex-direction: column;
 }
+
+ input.searchbar {
+    width: 280px;
+}
+
 .button-container {
     width: 400px;
+    display: flex;
+    justify-content: center;
 }
 .button-container button {
     padding: 5px 10px;
-    width: 35%;
-    margin: 0 auto;
+    width: 140px;
     background-color: rgb(190, 190, 190);
     border: solid 1px rgb(155, 155, 155);
     border-radius: 5px;

@@ -46,20 +46,68 @@ ul li {
     line-height: 1.5;
 }
 
-img {
-    height: auto;
-    width: 100%;
+a {
+    text-decoration: none;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    font-size: 0.8em;
+}
+
+nav li a{
+    color: rgb(102, 100, 100);
+}
+
+main {
+    height: calc(100vh - 110px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .wrapper {
+    /* margin: 0 auto; */
+    /* max-width: 90rem; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: flex-end; */
+}
+.button-container {
+    width: 400px;
+}
+.button-container button {
+    padding: 5px 10px;
+    width: 35%;
     margin: 0 auto;
-    max-width: 90rem;
+    background-color: rgb(190, 190, 190);
+    border: solid 1px rgb(155, 155, 155);
+    border-radius: 5px;
+}
+.wrapper > .content {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* This is using BEM Syntax */
 .wrapper--image {
     margin: auto;
     max-width: 20rem;
+
 }
 
 .code {
@@ -70,9 +118,41 @@ img {
     padding: 2px;
 }
 
+header {
+    /* background-color: aquamarine; */
+    color: black;
+}
+
+.logo {
+    width: 30%;
+    height: 30%;
+}
+
+.button-container {
+}
+
 footer {
-    background-color: darkgray;
-    color: white;
-    margin: 2rem 0 0;
-    padding: 1rem;
+    border-top: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+    color: rgb(85, 85, 85);
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0;
+}
+
+footer ul {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0;
+}
+
+footer li a {
+    color: rgb(102, 100, 100);
+}
+
+footer li {
+    font-size: 0.8em;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
 }

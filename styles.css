@@ -80,12 +80,9 @@ main {
     justify-content: center;
 }
 .wrapper {
-    /* margin: 0 auto; */
-    /* max-width: 90rem; */
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* align-items: flex-end; */
 }
 .button-container {
     width: 400px;
@@ -107,7 +104,6 @@ main {
 .wrapper--image {
     margin: auto;
     max-width: 20rem;
-
 }
 
 .code {
@@ -119,7 +115,6 @@ main {
 }
 
 header {
-    /* background-color: aquamarine; */
     color: black;
 }
 
